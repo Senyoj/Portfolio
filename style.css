@@ -1,0 +1,271 @@
+body
+{
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Island Moments', cursive;
+    font-family: 'Kolker Brush', cursive;
+    font-family: 'Pacifico', cursive;
+font-family: 'Shalimar', cursive;
+    background-color: azure;
+    cursor: context-menu;
+}
+.logo
+{
+    background-color: blueviolet;
+    color: aqua;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+.logo span
+{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: fantasy;
+}
+.sub h2
+{
+    position: absolute;
+    top: 90%;
+    right: 45%;
+    font-size: 25px;
+    font-family: cursive;
+]}
+
+
+.logo p
+{
+position: absolute;
+top: 1%;
+left: 7%;
+color: maroon;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logo p span
+{
+    position: absolute;
+    top: 0;
+    left: 120%;
+    color: rgb(39, 37, 37);
+    font-family: cursive;
+    font-size: 20px;
+}
+nav
+{
+    position: absolute;
+    top: 2%;
+    right: 5%;
+}
+nav a
+{
+    text-decoration: none;
+    color: rgb(128, 125, 125);
+    padding-right: 10px;
+    padding-left: 2px;
+    line-height: 33px;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+a:hover
+{
+    background-color: rgb(17, 221, 221);
+    height: 30px;
+    border-radius: 10px 10px 10px 10px;
+}
+img
+{
+    position: absolute;
+    top: 19%;
+    left: 18%;
+    border-radius: 50%; 
+    border: 1;
+    padding: 4px;
+    border-color: darkcyan;
+    border-bottom-style: groove;
+    border-top-style: double;
+}
+h5
+{
+    position: absolute;
+    top: 27%;
+    right: 40%;
+    color: rgb(226, 218, 207);
+}
+.main h2
+{
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    color: rgb(109, 30, 30);
+    font-size: 30px;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+.main p
+{
+    position: absolute;
+    top:45%;
+    right: 10%;
+    color: rgb(37, 33, 33);
+}
+.main p a
+{
+    text-decoration: none;
+    color: darkseagreen;
+}
+.main button
+{
+    position: absolute;
+    top: 70%;
+    right: 40%;
+    height: 35px;
+    border-radius: 17px;
+    border-color: rgb(188, 145, 229);
+}
+.main button a
+{
+    text-decoration: none;
+}
+.cont
+{
+    position: absolute;
+    top: 70%;
+    right: 28%;
+    height: 35px;
+    width: 80px;
+    border-radius: 17px;
+    border-color: rgb(158, 119, 194);
+}
+.sub h2
+{
+    color: darkblue;
+}
+.container .first
+{
+    position: absolute;
+    top: 110%;
+    left: 2%;
+    background: linear-gradient(rgb(109, 107, 97),rgb(236, 212, 212));
+    height: 150px;
+    width: 320px;
+    border-radius: 8px;
+    color: beige;
+}
+.container .first h5
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container .first button
+{
+    position: absolute;
+    top: 12%;
+    right: 3%;
+    height: 30px;
+    border-radius: 7px;
+    border-color: rgb(204, 188, 219);
+    background:linear-gradient(rgb(221, 191, 191),rgb(162, 162, 202));
+}
+.container .first p
+{
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    color: cornsilk;
+    font-family: cursive;
+}
+.container .second
+{
+    position: absolute;
+    top: 110%;
+    left: 55%;
+    height: 145px;
+    width: 320px;
+    background: linear-gradient(rgb(132, 160, 113),rgb(125, 230, 151));
+    border-radius: 7px;
+    color: blanchedalmond;
+}
+.container .second h4
+{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .second button
+{
+
+    position: absolute;
+    top: 12%;
+    right: 3%;
+    height: 30px;
+    border-radius: 7px;
+    border-color: rgb(204, 188, 219);
+    background:linear-gradient(rgb(221, 191, 191),rgb(162, 162, 202));
+}
+.container .second p
+{
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    color: cornsilk;
+    font-family: cursive;
+}
+.container .third
+{
+    position: absolute;
+    top: 150%;
+    left: 2%;
+    background: linear-gradient(rgb(229, 240, 170),rgb(196, 126, 126));
+    height: 130px;
+    width: 320px;
+    border-radius: 8px;
+    color: cornsilk;
+}
+.container .third h4
+{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .third p
+{
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    color: cornsilk;
+    font-family: cursive;
+}
+.container .fourth
+{
+    position: absolute;
+    top: 150%;
+    left: 55%;
+    background: linear-gradient(rgb(174, 170, 219),rgb(201, 233, 166));
+    height: 130px;
+    width: 320px;
+    border-radius: 8px;
+    color: gray;
+}
+.container .fourth h4
+{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .fourth p
+{
+    position: absolute;
+    top: 35%;
+    left: 3%;
+    color: rgb(107, 106, 102);
+    font-family: cursive;   
+}
